@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 .skills_section{
@@ -26,8 +28,19 @@
   width: 100%;
   background: #1E1E1E;
   border-radius: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 9.5rem;
   padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.cross{
+  position: absolute;
+  top: 50%;
+  right: -14%;
+  transform: translate(-14%, -50%);
 }
