@@ -1,0 +1,22 @@
+html{
+  max-width: 100%;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #131226;
+  min-height: 100vh;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-image: url('../assets/bg_circles.svg');
+  background-size: contain;
+  
+}

@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+.projects_section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projects_title{
+  color: white;
+  font-size: 5rem;
+  font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: 4rem;
+}
+
+.rectangle{
+  height: 70%;
+  width: 100%;
+  background: #1E1E1E;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 9.5rem;
+  padding: 5rem;
+}
