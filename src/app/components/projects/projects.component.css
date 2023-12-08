@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .projects_section{
@@ -25,8 +27,17 @@
   width: 100%;
   background: #1E1E1E;
   border-radius: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 9.5rem;
   padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.cross{
+  position: absolute;
+  top: 50%;
+  left: -14%;
+  transform: translate(14%, -50%);
 }

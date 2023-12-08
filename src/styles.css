@@ -12,3 +12,16 @@ body{
   height: auto;
   overflow-x: hidden;
 }
+
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #131226;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+}

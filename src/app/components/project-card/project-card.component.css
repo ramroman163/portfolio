@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  position: relative;
+  width: 25vw;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid rgb(6, 40, 109);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.section__img{
+  min-height: 30vh;
+  width: 100%;
+  background: rgba(3, 57, 166, 0.25);
+}
+
+.container__img{
+  height: 100%;
+}
+
+.section__information{
+  background: #3D3D3D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.title {
+  margin-top: -1.5rem;
+  color: white;
+  font-size: 2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  align-self: flex-start;
+}
+
+.description {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  margin: 20px 0;
+  text-align: center;
+  word-break: break-all;
+}
+
+.button {
+  padding: .5rem;
+  border: 6px rgba(3, 57, 166, 0.25) solid;
+  background: #1E1E1E;
+  border-radius: 3rem;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  transition: .3s ease all;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}

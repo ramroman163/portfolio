@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 .contact_section{
@@ -22,12 +24,139 @@
 }
 
 .rectangle{
-  height: 70%;
   width: 100%;
+  display: flex;
+  align-items: flex-start;
+  height: 70%;
   background: #1E1E1E;
   border-radius: 1rem;
-  display: flex;
-  align-items: center;
   gap: 9.5rem;
   padding: 5rem;
+  margin-bottom: 5rem;
+}
+
+.rectangle h3 {
+  color: white;
+  font-size: 24px;
+  font-family: 'IBM Plex Sans';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.social_media_section > ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: white;
+  font-size: 24px;
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+.social_media_section{
+  min-height: 60vh;
+  width: 50%;
+  background: #3D3D3D;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.social_media_section li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  gap: 2rem;
+}
+/* 
+.social_media_section > li > a{
+  margin-left: auto;
+} */
+
+.form_section{
+  min-height: 60vh;
+  width: 50%;
+  /* background: #3D3D3D; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 1rem;
+  padding: 3rem;
+  gap: 1.5rem;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 1rem;
+  gap: 1.5rem;
+}
+
+.input_form{
+  border: 0;
+  outline: 0;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  width: 100%;
+  display: block;
+  background: #3D3D3D; 
+  border-radius: 2rem;
+  font-family: 'IBM Plex Sans';
+}
+
+.form_section textarea{
+  border: 0;
+  outline: 0;
+  padding: 1.5rem 1.5rem;
+  height: 10rem;
+  color: #fff;
+  width: 100%;
+  display: block;
+  border-radius: 2rem;
+  background: #3D3D3D; 
+  resize: none;
+  font-family: 'IBM Plex Sans';
+  font-size: 1.1rem;
+}
+
+.submit_form{
+  background: #131226;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  border: .3rem #311996 solid;
+  border-radius: 1.5rem;
+  color: white;
+  font-family: 'IBM Plex Sans';
+  font-weight: 300;
+  word-wrap: break-word;
+  transition: .3s ease transform;
+}
+
+.submit_form:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.cross{
+  position: absolute;
+  top: 50%;
+  right: -14%;
+  transform: translate(-14%, -50%);
 }
