@@ -10,6 +10,9 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { EmailService } from './services/email.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +27,11 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
     ProjectCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [EmailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

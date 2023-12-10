@@ -69,6 +69,7 @@ a{
   gap: 1rem;
   padding: 3rem;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .social_media_section li{
@@ -79,15 +80,10 @@ a{
   padding: 1rem;
   gap: 2rem;
 }
-/* 
-.social_media_section > li > a{
-  margin-left: auto;
-} */
 
 .form_section{
   min-height: 60vh;
   width: 50%;
-  /* background: #3D3D3D; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -118,6 +114,7 @@ form{
   background: #3D3D3D; 
   border-radius: 2rem;
   font-family: 'IBM Plex Sans';
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .form_section textarea{
@@ -133,6 +130,7 @@ form{
   resize: none;
   font-family: 'IBM Plex Sans';
   font-size: 1.1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .submit_form{
@@ -147,6 +145,7 @@ form{
   font-weight: 300;
   word-wrap: break-word;
   transition: .3s ease transform;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .submit_form:hover{

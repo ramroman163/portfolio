@@ -1,0 +1,62 @@
+{
+  "skills": [
+    {
+      "skillName": "Node.js",
+      "level": "Intermedio",
+      "area": "Backend",
+      "icon": "../../../assets/node_icon.svg"
+    },
+    {
+      "skillName": "Angular",
+      "level": "Básico",
+      "area": "Frontend",
+      "icon": "../../../assets/angular_icon.svg"
+    },
+    {
+      "skillName": "Python",
+      "level": "Intermedio",
+      "area": "Desarrollo",
+      "icon": "../../../assets/python_icon.svg"
+    },
+    {
+      "skillName": "MySQL",
+      "level": "Intermedio",
+      "area": "BBDD",
+      "icon": "../../../assets/mysql_icon.svg"
+    },
+    {
+      "skillName": "CSS",
+      "level": "Intermedio",
+      "area": "Frontend",
+      "icon": "../../../assets/css_icon.svg"
+    },
+    {
+      "skillName": "PHP",
+      "level": "Básico",
+      "area": "Backend",
+      "icon": "../../../assets/php_icon.svg"
+    }
+  ],
+  "projects":[
+    {
+      "name": "Contador",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "link": "https://www.google.com"
+    },
+    {
+      "name": "Contador",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "link": "https://www.google.com"
+    },
+    {
+      "name": "Contador",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "link": "https://www.google.com"
+    },
+    {
+      "name": "Contador",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "link": "https://www.google.com"
+    }
+  ]
+}

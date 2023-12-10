@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { skillModel } from 'src/app/models/skill.model';
 
 @Component({
   selector: 'app-skill-card',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./skill-card.component.css']
 })
 export class SkillCardComponent {
+
+  @Input() skillData! : skillModel;
 
 }

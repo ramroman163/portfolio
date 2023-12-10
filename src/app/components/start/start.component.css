@@ -15,14 +15,17 @@ section{
   font-weight: 400;
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
+  z-index: 100;
 }
 
 .name-section > h1 {
   font-size: 5.5rem;
+  z-index: 100;
 }
 
 .name-section > h2 {
   font-size: 2rem;
+  z-index: 100;
 }
 
 .profile{
@@ -47,4 +50,17 @@ section{
   left: -20%;
   transform: translate(-20%, -25%);
   z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  section{
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  .name-section{
+    align-items: center;
+    text-align: center;
+  }
 }

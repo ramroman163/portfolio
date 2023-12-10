@@ -38,6 +38,10 @@
   margin-bottom: 4rem;
 }
 
+.rectangle > app-skill-card{
+  flex: 1;
+}
+
 .cross{
   position: absolute;
   top: 50%;

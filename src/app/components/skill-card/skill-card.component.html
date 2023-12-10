@@ -1,10 +1,10 @@
 <section class="card">
   <div class="card-img__section">
-    <img src="../../../assets/node_icon.svg" alt="">
+    <img [src]="skillData.icon" alt="">
   </div>
   <div class="card-text__section">
-      <p class="card__text card__text-title">Node.js</p>
-      <p class="card__text card__text-level">Intermedio</p>
-      <p class="card__text card__text-area">Backend</p>
+      <p class="card__text card__text-title">{{ skillData.skillName }}</p>
+      <p class="card__text card__text-level">{{ skillData.level }}</p>
+      <p class="card__text card__text-area">{{ skillData.area }}</p>
   </div>
 </section>
