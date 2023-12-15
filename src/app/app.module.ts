@@ -13,6 +13,7 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EmailService } from './services/email.service';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { EmailService } from './services/email.service';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule
   ],
   providers: [EmailService],
   bootstrap: [AppComponent]

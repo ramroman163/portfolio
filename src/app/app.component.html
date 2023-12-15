@@ -1,8 +1,13 @@
-<main>
-  <app-header></app-header>
-  <app-start></app-start>
-  <app-aboutme></app-aboutme>
-  <app-skills></app-skills>
-  <app-projects></app-projects>
-  <app-contact></app-contact>
-</main>
+<router-outlet>
+  <main>
+    <app-header></app-header>
+    <app-start id="start"></app-start>
+    <app-aboutme id="aboutme"></app-aboutme>
+    <app-skills id="skills"></app-skills>
+    <app-projects id="projects"></app-projects>
+    <app-contact id="contact"></app-contact>
+    <a class="button_up" href="#start">
+      <img src="../assets/arrow-up-outline.svg" alt="">
+    </a>
+  </main>
+</router-outlet>

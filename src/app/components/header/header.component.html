@@ -1,16 +1,20 @@
 <header>
   <ul>
     <li>
-      <p>Inicio</p>
+      <a (click)="toggleLine()" href="#start">Inicio</a>
+      <div [hidden]="!showLine" class="line"></div>
     </li>
     <li>
-      <p>Experiencia</p>
+      <a href="#aboutme">Sobre Mí</a>
     </li>
     <li>
-      <p>Skills</p>
+      <a href="#skills">Habilidades</a>
     </li>
     <li>
-      <p>Contacto</p>
+      <a href="#projects">Proyectos</a>
+    </li>
+    <li>
+      <a href="#contact">Contacto</a>
     </li>
   </ul>
 </header>

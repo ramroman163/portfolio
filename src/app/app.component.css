@@ -3,7 +3,6 @@ html{
   position: relative;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -19,5 +18,29 @@ main{
   padding-right: 4rem;
   background-image: url('../assets/bg_circles.svg');
   background-size: contain;
-  
+}
+
+.button_up{
+  position: fixed;
+  background: #020113;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
+  bottom: 45px;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s ease all;
+}
+
+.button_up:hover{
+  transform: scale(1.10);
+}
+
+.button_up img{
+  fill: white !important;
+  width: 2.5rem;
+  height: 2.5rem;
 }

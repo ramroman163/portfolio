@@ -1,12 +1,7 @@
 <section class="projects_section">
   <h2 class="projects_title">PROYECTOS</h2>
   <section class="rectangle">
-    <app-project-card></app-project-card>
-    <app-project-card></app-project-card>
-    <app-project-card></app-project-card>
-    <app-project-card></app-project-card>
-    <app-project-card></app-project-card>
-    <app-project-card></app-project-card>
+    <app-project-card *ngFor="let projectItem of projects" [projectData] = "projectItem"></app-project-card>
   </section>
   <img class="cross" src="../../../assets/cross.svg" alt="">
 </section>

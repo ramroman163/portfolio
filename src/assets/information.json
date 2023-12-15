@@ -39,24 +39,40 @@
   ],
   "projects":[
     {
-      "name": "Contador",
-      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "link": "https://www.google.com"
+      "projectName": "Dashboard ML",
+      "description": "Dashboard para vendedores de Mercado Libre",
+      "link": "https://github.com/ramroman163/DashboardML-2",
+      "img": "../../../assets/dashboard_ml.PNG"
     },
     {
-      "name": "Contador",
-      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "link": "https://www.google.com"
+      "projectName": "Spendify",
+      "description": "Registrador de gastos mensuales en Python.",
+      "link": "https://sspendify.vercel.app/",
+      "img": "../../../assets/spendify.png"
     },
     {
-      "name": "Contador",
-      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "link": "https://www.google.com"
+      "projectName": "Registrador Empleados",
+      "description": "Aplicación que regista el ingreso/salida de empleados de una fábrica.",
+      "link": "https://registroingresoem.000webhostapp.com/",
+      "img": "../../../assets/registro_empleados.png"
     },
     {
-      "name": "Contador",
-      "description": "aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "link": "https://www.google.com"
+      "projectName": "Genefut",
+      "description": "Aplicación para generar equipos de manera aleatoria.",
+      "link": "https://genefut.netlify.app/",
+      "img": "../../../assets/genefut.png"
+    },
+    {
+      "projectName": "Portfolio",
+      "description": "Proyecto final de Argentina Programa",
+      "link": "https://yoprogramo-angular.web.app/portfolio",
+      "img": "../../../assets/portfolio_ap.png"
+    },
+    {
+      "projectName": "Climas Argentinos",
+      "description": "Brinda datos sobre el clima de cualquier ciudad en el país.",
+      "link": "https://ramroman163.github.io/Climas-Argentinos-2.0/",
+      "img": "../../../assets/climas_argentinos.png"
     }
   ]
 }

@@ -27,6 +27,30 @@ li{
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
+  position: relative;
+}
+
+li > a{
+  text-decoration: none;
+  color: white;
+}
+
+.line{
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  animation: expand 1s ease;
+  height: 3px;
+  display: none;
+}
+
+@keyframes expand {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  }
 }
 
 li:hover{

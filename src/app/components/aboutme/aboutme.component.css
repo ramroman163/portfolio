@@ -75,6 +75,13 @@ button{
   transition: .3s ease all
 }
 
+.container_buttons a{
+  text-decoration: none;
+  visibility: inherit;
+  width: 100%;
+  text-align: center;
+}
+
 button:hover{
   cursor: pointer;
   transform: scale(1.05);

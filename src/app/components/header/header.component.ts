@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  showLine = false;
 
+  toggleLine() : void {
+    this.showLine = !this.showLine
+  }
 }
