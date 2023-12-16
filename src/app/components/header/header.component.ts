@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
   selector: 'app-header',
@@ -6,9 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  showLine = false;
-
-  toggleLine() : void {
-    this.showLine = !this.showLine
-  }
+  
 }

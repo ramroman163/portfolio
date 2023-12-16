@@ -18,7 +18,7 @@ export class ContactComponent {
   constructor(private http: HttpClient, private emailService : EmailService) { }
 
   sendMail() : void {
-    alert("Se ha enviado el mail!")
     this.emailService.sendEmail(this.contactData)
+    alert("Se ha enviado el mail!")
   }
 }

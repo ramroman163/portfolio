@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EmailService } from './services/email.service';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule
   ],
   providers: [EmailService],
   bootstrap: [AppComponent]

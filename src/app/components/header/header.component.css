@@ -20,6 +20,7 @@ ul{
   padding: 0 5rem;
   border-radius: 2.5rem;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 li{
@@ -28,6 +29,10 @@ li{
   font-weight: 400;
   font-size: 1.5rem;
   position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 li > a{
@@ -38,10 +43,20 @@ li > a{
 .line{
   position: absolute;
   background: #fff;
-  width: 100%;
-  animation: expand 1s ease;
+  bottom: 20%;
+  width: 0px;
   height: 3px;
-  display: none;
+  transition: all .3s ease-in;
+  border-radius: 1rem;
+}
+
+li:hover{
+  cursor: pointer;
+}
+
+li:hover > .line{
+  animation: expand .3s ease-in;
+  width: 100%;
 }
 
 @keyframes expand {
@@ -51,8 +66,4 @@ li > a{
   100%{
     width: 100%;
   }
-}
-
-li:hover{
-  cursor: pointer;
 }

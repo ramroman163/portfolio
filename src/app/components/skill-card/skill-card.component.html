@@ -1,6 +1,6 @@
 <section class="card">
   <div class="card-img__section">
-    <img [src]="skillData.icon" alt="">
+    <img [src]="skillData.icon" [alt]="skillData.icon + '_img'" loading="lazy">
   </div>
   <div class="card-text__section">
       <p class="card__text card__text-title">{{ skillData.skillName }}</p>

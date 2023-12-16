@@ -33,6 +33,22 @@ main{
   align-items: center;
   justify-content: center;
   transition: .3s ease all;
+  animation-name: move;
+	animation-duration: 3s;
+	animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0%{
+    bottom: 45px;
+  }
+  50%{
+    bottom: 60px;
+  }
+  100%{
+    bottom: 45px;
+  }
 }
 
 .button_up:hover{
