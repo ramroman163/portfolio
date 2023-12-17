@@ -1,10 +1,10 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
-.projects_section{
+.experiences_section{
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -13,13 +13,14 @@
   align-items: flex-start;
 }
 
-.projects_title{
+.experiences_title{
   color: white;
   font-size: 5rem;
   font-family: 'IBM Plex Sans';
   font-weight: 400;
   word-wrap: break-word;
   margin-bottom: 4rem;
+  align-self: flex-end;
 }
 
 .rectangle{
@@ -30,29 +31,29 @@
   padding: 5rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
   margin-bottom: 4rem;
 }
 
-.rectangle > app-project-card{
+.rectangle > app-skill-card{
   flex: 1;
 }
 
 .cross{
   position: absolute;
   top: 50%;
-  left: -14%;
-  transform: translate(14%, -50%);
+  right: -14%;
+  transform: translate(-14%, -50%);
 }
 
 @media screen and (max-width: 1336px){
-  .projects_section{
+  .experiences_section{
     align-items: center;
   }
-  .projects_title{
+  .experiences_title{
     align-self: auto;
     font-size: calc(4rem + 1vw);
   }
@@ -60,19 +61,13 @@
     display: none;
   }
 
-  .rectangle > app-project-card{
-    flex: none;
-    width: 100%;
-  }  
-
   .rectangle{
     padding: calc(4.5rem - .5vw) calc(3rem - .5vw);
   }
 }
 
-
 @media screen and (max-width: 520px){
-  .projects_title{
+  .experiences_title{
     align-self: auto;
     font-size: 3rem;
   }

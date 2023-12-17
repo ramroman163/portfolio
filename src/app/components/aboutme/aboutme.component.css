@@ -61,7 +61,7 @@
 }
 
 button{
-  width: 60%;
+  width: 65%;
   min-width: 50%;
   border-radius: 2rem;
   border: 6px #311996 solid;
@@ -93,4 +93,62 @@ button:hover{
   top: 50%;
   left: -14%;
   transform: translate(14%, -50%);
+}
+
+@media screen and (max-width: 1336px){
+  .cross{
+    display: none;
+  }
+
+  .aboutme_section{
+    align-items: center;
+  }
+
+  .aboutme_title{
+    font-size: calc(4rem + 1vw);
+  }
+
+  .rectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .aboutme_text{
+    font-size: calc(1.6rem + .5vw);
+    max-width: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .rectangle{
+    padding: calc(4.5rem - .5vw) calc(3rem - .5vw);
+  }
+
+  .container_buttons{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  button{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .rectangle{
+    padding: 3rem 1.5rem;
+    
+  }
+
+  .container_buttons{
+    padding: 1rem;
+  }
+
+  button{
+    width: 90%;
+    font-size: 1.5rem;
+  }
 }

@@ -52,15 +52,49 @@ section{
   z-index: 1;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1336px) {
   section{
+    width: 100%;
     align-items: center;
     flex-direction: column;
-    gap: 3.5rem;
+    gap: 3rem;
+    padding-top: calc(10rem - 5vw);
+    box-sizing: border-box;
   }
 
   .name-section{
     align-items: center;
     text-align: center;
+  }
+
+  .name-section > h1 {
+    font-size: 5.5rem;
+    z-index: 100;
+  }
+  
+  .name-section > h2 {
+    font-size: 2rem;
+    z-index: 100;
+  }
+
+  .cross{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .name-section > h1 {
+    font-size: 3.5rem;
+    z-index: 100;
+  }
+  
+  .name-section > h2 {
+    font-size: 2rem;
+    z-index: 100;
+  }
+
+  .profile{
+    width: 250px;
+    height: 250px;
   }
 }

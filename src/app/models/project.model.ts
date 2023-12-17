@@ -1,4 +1,4 @@
-export interface projectModel{
+export interface ProjectModel{
   projectName: "",
   description: "",
   link: "",

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
   selector: 'app-header',
@@ -7,5 +6,9 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  
+  hideNavbar : Boolean = false
+
+  toggleNavbar() : void {
+    this.hideNavbar = !this.hideNavbar
+  }
 }

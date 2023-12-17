@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { projectModel } from 'src/app/models/project.model';
-import { ProjectsService } from 'src/app/services/projects.service';
+import { ProjectModel } from 'src/app/models/project.model';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-projects',
@@ -9,14 +9,14 @@ import { ProjectsService } from 'src/app/services/projects.service';
 })
 export class ProjectsComponent implements OnInit{
 
-  constructor(private projectService : ProjectsService){}
+  constructor(private dataService : DataService){}
 
-  projects! : Array<projectModel>
+  projects! : Array<ProjectModel>
 
   url = '../../assets/information.json'
 
   ngOnInit(): void {
-    this.projectService.getAllProjects(this.url).subscribe(res => {
+    this.dataService.getAllData().subscribe(res => {
       this.projects = res["projects"]
     })
   }

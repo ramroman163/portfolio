@@ -15,6 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { EmailService } from './services/email.service';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectsComponent,
     ContactComponent,
     SkillCardComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    ExperienceComponent,
+    ExperienceCardComponent
   ],
   imports: [
     BrowserModule,

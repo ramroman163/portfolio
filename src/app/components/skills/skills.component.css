@@ -48,3 +48,50 @@
   right: -14%;
   transform: translate(-14%, -50%);
 }
+
+@media screen and (max-width: 1336px){
+  .skills_section{
+    align-items: center;
+  }
+  .skills_title{
+    align-self: auto;
+    font-size: calc(4rem + 1vw);
+  }
+  .cross{
+    display: none;
+  }
+
+  .rectangle{
+    padding: calc(4.5rem - .5vw) calc(3rem - .5vw);
+  }
+}
+
+@media screen and (max-width: 575px){
+  .skills_section{
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .rectangle{
+    padding: 3rem 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  skills_title{
+    font-size: 2rem;
+  }
+
+  .rectangle > app-skill-card{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .skills_title{
+    align-self: auto;
+    font-size: 3rem;
+  }
+}

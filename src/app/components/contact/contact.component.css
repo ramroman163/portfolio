@@ -30,7 +30,7 @@
   height: 70%;
   background: #1E1E1E;
   border-radius: 1rem;
-  gap: 9.5rem;
+  gap: 5rem;
   padding: 5rem;
   margin-bottom: 5rem;
 }
@@ -70,6 +70,10 @@ a{
   padding: 3rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.social_media_section h3 {
+  font-size: 2rem;
 }
 
 .social_media_section li{
@@ -158,4 +162,68 @@ form{
   top: 50%;
   right: -14%;
   transform: translate(-14%, -50%);
+}
+
+@media screen and (max-width: 1336px) {
+  .contact_section{
+    align-items: center;
+  }
+  .contact_title{
+    align-self: auto;
+    font-size: calc(4rem + 1vw);
+  }
+  .cross{
+    display: none;
+  }
+
+  .rectangle{
+    padding: calc(4.5rem - .5vw) calc(3rem - .5vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social_media_section{
+    width: 100%;
+    padding: 3rem 1.5rem;
+    align-items: center;
+  }
+
+  .social_media_section li{
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form_section{
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+
+  .form_section textarea{
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .contact_title{
+    align-self: auto;
+    font-size: 3rem;
+  }
+
+  .social_media_section li a{
+    font-size: 1.25rem;
+  }
+
+  .rectangle{
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

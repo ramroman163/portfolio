@@ -74,5 +74,14 @@
       "link": "https://ramroman163.github.io/Climas-Argentinos-2.0/",
       "img": "../../../assets/climas_argentinos.png"
     }
+  ],
+  "experiences": [
+    {
+      "experienceName": "Programador Backend",
+      "description": "App para vendedores que utiliza la API de ML",
+      "date": "2023",
+      "type": "Pasantía",
+      "place": "Distribuidora Miller"
+    }
   ]
 }

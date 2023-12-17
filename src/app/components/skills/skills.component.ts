@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { skillModel } from 'src/app/models/skill.model';
-import { SkillsService } from 'src/app/services/skills.service';
+import { DataService } from 'src/app/services/data.service';
 import { OnInit } from '@angular/core';
 
 @Component({
@@ -10,14 +10,14 @@ import { OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  constructor(private skillsService : SkillsService){}
+  constructor(private dataService : DataService){}
 
   skillsArray!: Array<skillModel>
 
   url : string = '../../assets/information.json'
 
   ngOnInit() {
-    this.skillsService.getAllSkills(this.url).subscribe((res : any) => {
+    this.dataService.getAllData().subscribe((res : any) => {
       this.skillsArray = res["skills"]
     })
   }

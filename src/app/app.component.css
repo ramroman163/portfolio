@@ -60,3 +60,28 @@ main{
   width: 2.5rem;
   height: 2.5rem;
 }
+
+main > app-experience{
+  width: 100%;
+}
+
+main > app-contact{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1336px){
+  main{
+    display: flex;
+    flex-direction: column;
+    gap: calc(10rem - 5vw);
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+  }
+
+  main > app-skills{
+    width: 100%;
+  }
+}
